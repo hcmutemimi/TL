@@ -59,7 +59,7 @@
                 </div>
                 <div class="form-group">
                     <h6 class="text-black-50">Image:</h6>
-                    <button type="button" class="btn btn-secondary float-center">Upload</button>
+                    <button type="button" class="btn btn-secondary float-center" (clcik)="onUpload()">Upload</button>
                 </div>
                 <div class="modal-footer">
                     <button type="submit" id="submitAddPokestop"
@@ -95,8 +95,8 @@
       <td>truyền dữ liệu</td>
       <td>truyền dữ liệu</td>
       <td>truyền dữ liệu</td>
-      <td class="text-align-center" (click)="onModalEdit()"><i class="fas fa-edit icon-edit"></i></td>
-      <td  class="text-align-center" (click)="onModalDelete()" ><i class="fas fa-trash icon-delete"></i></td>
+      <td class="text-align-center" ><i class="fas fa-edit icon-edit"></i></td>
+      <td  class="text-align-center"><i class="fas fa-trash icon-delete"></i></td>
     </tr>
   </table>
 </div>
