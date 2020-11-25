@@ -11,5 +11,13 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onModalEdit() {
 
+  }
+  onModalDelete() {
+   
+  }
+  addPhoto() {
+
+  }
 }
